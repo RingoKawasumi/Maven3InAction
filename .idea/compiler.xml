@@ -17,6 +17,25 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for _03_GettingStarted" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="_03_GettingStarted" />
+      </profile>
+      <profile default="false" name="Annotation profile for _04_Coordinate&amp;Dependency" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="_04_Coordinate&amp;Dependency" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_03_GettingStarted" target="1.5" />
+      <module name="_04_Coordinate&amp;Dependency" target="1.5" />
+      <module name="Maven3InAction" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

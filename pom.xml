@@ -4,7 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zhujie.study</groupId>
-    <artifactId>hello-world</artifactId>
+    <artifactId>maven3-in-action</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>_03_GettingStarted</module>
+        <module><![CDATA[_04_Coordinate&Dependency]]></module>
+    </modules>
     <name>Maven Hello World Project</name>
+
 </project>
