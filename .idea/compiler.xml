@@ -31,10 +31,18 @@
         <processorPath useClasspath="true" />
         <module name="_04_Coordinate&amp;Dependency" />
       </profile>
+      <profile default="false" name="Annotation profile for _08_Aggregation&amp;Inherit" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="_08_Aggregation&amp;Inherit" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_03_GettingStarted" target="1.5" />
       <module name="_04_Coordinate&amp;Dependency" target="1.5" />
+      <module name="_08_Aggregation&amp;Inherit" target="1.5" />
       <module name="Maven3InAction" target="1.5" />
     </bytecodeTargetLevel>
   </component>

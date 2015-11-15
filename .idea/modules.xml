@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Maven3InAction.iml" filepath="$PROJECT_DIR$/Maven3InAction.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03_GettingStarted/_03_GettingStarted.iml" filepath="$PROJECT_DIR$/_03_GettingStarted/_03_GettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04_Coordinate&amp;Dependency/_04_Coordinate&amp;Dependency.iml" filepath="$PROJECT_DIR$/_04_Coordinate&amp;Dependency/_04_Coordinate&amp;Dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_Aggregation&amp;Inherit/_08_Aggregation&amp;Inherit.iml" filepath="$PROJECT_DIR$/_08_Aggregation&amp;Inherit/_08_Aggregation&amp;Inherit.iml" />
     </modules>
   </component>
 </project>
